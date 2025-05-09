@@ -1,32 +1,68 @@
-[![Build Status](https://runbot.odoo.com/runbot/badge/flat/1/master.svg)](https://runbot.odoo.com/runbot)
-[![Tech Doc](https://img.shields.io/badge/master-docs-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.odoo.com/documentation/16.0)
-[![Help](https://img.shields.io/badge/master-help-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.odoo.com/forum/help-1)
-[![Nightly Builds](https://img.shields.io/badge/master-nightly-875A7B.svg?style=flat&colorA=8F8F8F)](https://nightly.odoo.com/)
+# Prueba Técnica – Implementación Básica en Odoo
 
-Odoo
-----
+## Descripción
 
-Odoo is a suite of web based open source business apps.
+Esta prueba técnica fue un proceso elaborado con el fin de ser una evaluación técnica acerca de la configuración e implementación de odoo, se realizo en un ambiente de ubuntu, usando una VM de oracle para su 
+ejecución.
+---
 
-The main Odoo Apps include an <a href="https://www.odoo.com/page/crm">Open Source CRM</a>,
-<a href="https://www.odoo.com/app/website">Website Builder</a>,
-<a href="https://www.odoo.com/app/ecommerce">eCommerce</a>,
-<a href="https://www.odoo.com/app/inventory">Warehouse Management</a>,
-<a href="https://www.odoo.com/app/project">Project Management</a>,
-<a href="https://www.odoo.com/app/accounting">Billing &amp; Accounting</a>,
-<a href="https://www.odoo.com/app/point-of-sale-shop">Point of Sale</a>,
-<a href="https://www.odoo.com/app/employees">Human Resources</a>,
-<a href="https://www.odoo.com/app/social-marketing">Marketing</a>,
-<a href="https://www.odoo.com/app/manufacturing">Manufacturing</a>,
-<a href="https://www.odoo.com/">...</a>
+## Pasos realizados
 
-Odoo Apps can be used as stand-alone applications, but they also integrate seamlessly so you get
-a full-featured <a href="https://www.odoo.com">Open Source ERP</a> when you install several Apps.
+### 1. Preparación del entorno
 
-Getting started with Odoo
--------------------------
+Instalé Odoo 16 localmente en una máquina virtual con Ubuntu 22.04 utilizando un script personalizado. Configuré PostgreSQL 16 como motor de base de datos y un entorno virtual Python 3.12 con `venv`. Luego cloné el repositorio oficial de Odoo desde GitHub. Se solicito adicionalmente información y busco información para realizar la instalación. Se utilizo la documentación oficial de odoo, la documentación que se encuentra en github para poder realizar de la manera más limpia esta parte.
 
-For a standard installation please follow the <a href="https://www.odoo.com/documentation/16.0/administration/install/install.html">Setup instructions</a>
-from the documentation.
+### 2. Creación de la base de datos
 
-To learn the software, we recommend the <a href="https://www.odoo.com/slides">Odoo eLearning</a>, or <a href="https://www.odoo.com/page/scale-up-business-game">Scale-up</a>, the <a href="https://www.odoo.com/page/scale-up-business-game">business game</a>. Developers can start with <a href="https://www.odoo.com/documentation/16.0/developer/howtos.html">the developer tutorials</a>
+Ingresé a la interfaz web local (`http://localhost:8069`) y creé una nueva base de datos llamada `prueba_tecnica`.  
+Usuario admin: admin
+Contraseña: admin
+
+### 3. Instalación del módulo de Contactos
+
+Desde el menú de **Apps**, actualicé la lista de aplicaciones, busqué **Contacts** y lo instalé correctamente.
+
+### 4. Creación de 3 contactos de prueba
+
+Agregué tres contactos con los datos requeridos:
+
+#### Contacto 1
+- **Nombre:** Diego Ortiz  
+- **Dirección:** Scranton, United States  
+- **Correo:** diegoortizb03@gmail.com
+
+#### Contacto 2
+- **Nombre:** Juan Ramírez  
+- **Dirección:** Bayonne, United States  
+- **Correo:** joel.willis63@example.com
+
+#### Contacto 3
+- **Nombre:** Marjorie Matías  
+- **Puesto:** Secretaria  
+- **Dirección:** Guatemala, Guatemala  
+- **Correo:** diegoortizb03@gmail.com
+
+---
+![image](https://github.com/user-attachments/assets/ad2928e5-35c7-4bef-88ee-28813cd01b05)
+
+![image](https://github.com/user-attachments/assets/865566b8-26ec-4259-802b-ec426705e943)
+
+## Notas
+
+- Se realizco la instalación y configuración se hizo de forma manual, sin Odoo.sh.
+- Se excluyeron archivos grandes y entornos virtuales del repositorio usando `.gitignore`.
+- La estructura del proyecto fue organizada antes de subirla a GitHub.
+
+---
+
+## Repositorio
+
+🔗 [https://github.com/DieFeGo/PruebaTecnicaOdoo](https://github.com/DieFeGo/PruebaTecnicaOdoo)
+
+---
+
+## Contacto
+
+**Diego Ortiz**  
+📧 diegoortizb03@gmail.com  
+GitHub: [@DieFeGo](https://github.com/DieFeGo)
