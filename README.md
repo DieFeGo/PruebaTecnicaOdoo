@@ -17,10 +17,15 @@ Instalé Odoo 16 localmente en una máquina virtual con Ubuntu 22.04 utilizando 
 Ingresé a la interfaz web local (`http://localhost:8069`) y creé una nueva base de datos llamada `prueba_tecnica`.  
 Usuario admin: admin
 Contraseña: admin
+![image](https://github.com/user-attachments/assets/032b024d-a9b0-4768-bb16-9c49de10954f)
+
+![image](https://github.com/user-attachments/assets/45b3f5fe-8d8d-4620-a3d3-eea7db7891a1)
 
 ### 3. Instalación del módulo de Contactos
 
 Desde el menú de **Apps**, actualicé la lista de aplicaciones, busqué **Contacts** y lo instalé correctamente.
+![image](https://github.com/user-attachments/assets/bfb44ad8-5153-4a51-b118-bf473ce921e9)
+
 
 ### 4. Creación de 3 contactos de prueba
 
@@ -41,6 +46,8 @@ Agregué tres contactos con los datos requeridos:
 - **Puesto:** Secretaria  
 - **Dirección:** Guatemala, Guatemala  
 - **Correo:** diegoortizb03@gmail.com
+
+![image](https://github.com/user-attachments/assets/fa99c17e-403b-4f8d-a3c7-38787e841abe)
 
 ---
 ![image](https://github.com/user-attachments/assets/ad2928e5-35c7-4bef-88ee-28813cd01b05)
